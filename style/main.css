@@ -510,17 +510,17 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-wink-212.gif');
+    background: #f0f url('../img/212/1.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 
   .tile.tile-4 .tile-inner {
-    background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-shake-space-212.gif');
+    background: #f0f url('../img/212/2.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 
   .tile.tile-8 .tile-inner {
-    background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-peepers-212.gif');
+    background: #f0f url('../img/212/3.gif');
     background-size: cover;}
 
   .tile.tile-16 .tile-inner {
@@ -887,17 +887,17 @@ hr {
     transform: translate(202px, 202px); }
 
     .tile.tile-2 .tile-inner {
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-wink-114.gif');
+      background: #f0f url('../img/114/1.gif');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 
     .tile.tile-4 .tile-inner {
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-shake-space-114.gif');
+      background: #f0f url('../img/114/2.gif');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 
     .tile.tile-8 .tile-inner {
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-peepers-114.gif');
+      background: #f0f url('../img/114/3.gif');
       background-size: cover;}
 
     .tile.tile-16 .tile-inner {
