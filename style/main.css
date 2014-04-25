@@ -6,7 +6,7 @@ html, body {
   color: #000;
 /*  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;*/
   font-family: 'Comic Sans', 'Comic Sans', Chalkboard, Helvetica, Arial, sans-serif;
-  font-size: 18px; 
+  font-size: 18px;
   -webkit-animation: background-gradient-change linear 6s infinite alternate;
   -moz-animation: background-gradient-change linear 6s infinite alternate;
   -moz-animation: background-gradient-change linear 6s infinite alternate; }
@@ -26,23 +26,23 @@ h1.title {
   margin: 0;
   display: block;
   float: left; }
-  
+
   #twitter-widget-0 {
-    width: 100px !important;    
+    width: 100px !important;
     position: relative;
   }
-  
+
   .COINWIDGETCOM_CONTAINER {
   position: relative;
   bottom: 5px;
   }
-  
+
   .footer > div{
     display:inline-block !important;
     width: auto !important;
     overflow:hidden;
   }
-  
+
   .footer{
 /*    width:188px;*/
     width:265px;
@@ -76,11 +76,11 @@ h1.title {
   100% {
     top: -50px;
     opacity: 0; } }
-    
+
   @-webkit-keyframes fade-in-out {
     0% {
       opacity: 0; }
-      
+
     50% {
       opacity: 1; }
 
@@ -90,7 +90,7 @@ h1.title {
   @-moz-keyframes fade-in-out {
     0% {
       opacity: 0; }
-      
+
     50% {
       opacity: 1; }
 
@@ -100,13 +100,13 @@ h1.title {
   @keyframes fade-in-out {
     0% {
       opacity: 0; }
-      
+
     50% {
       opacity: 1; }
 
     100% {
       opacity: 0; } }
-      
+
   @-webkit-keyframes hover-change {
       0%   {color: cyan;}
       25%  {color: magenta;}
@@ -118,41 +118,41 @@ h1.title {
       25%  {color: magenta;}
       50%  {color: yellow;}
       100% {color: white;} }
-      
+
   @keyframes hover-change {
       0%   {color: cyan;}
       25%  {color: magenta;}
       50%  {color: yellow;}
       100% {color: white;} }
-      
+
   @-webkit-keyframes background-gradient-change {
-      0%   {background: #cff;}
-      33%  {background: #fcf;}
-      66%  {background: #ffc;}
-      100%   {background: #cff;}}
+      0%   {background: #e8ae10;}
+      33%  {background: #665420;}
+      66%  {background: #e1a011;}
+      100%   {background: #fff;}}
 
   @-moz-keyframes background-gradient-change {
-      0%   {background: #dff;}
-      33%  {background: #fdf;}
-      66%  {background: #ffd;}
-      100%   {background: #dff;}}
-      
+      0%   {background: #e8ae10;}
+      33%  {background: #665420;}
+      66%  {background: #e1a011;}
+      100%   {background: #fff;}}
+
   @keyframes background-gradient-change {
-      0%   {background: #dff;}
-      33%  {background: #fdf;}
-      66%  {background: #ffd;}
-      100%   {background: #dff;}}      
-      
+      0%   {background: #e8ae10;}
+      33%  {background: #665420;}
+      66%  {background: #e1a011;}
+      100%   {background: #fff;}}
+
   a:hover {
          -webkit-animation: hover-change linear 0.1s infinite;
          -moz-animation: hover-change linear 0.1s infinite;
          animation: hover-change linear 0.1s infinite;
-       }      
+       }
 
 .scores-container {
   float: right;
   text-align: right; }
-  
+
 .game-container .doge-says {
   position: fixed;
   top: 0;
@@ -170,7 +170,7 @@ h1.title {
     -webkit-animation-fill-mode: both;
     -moz-animation-fill-mode: both;
     animation-fill-mode: both; }
-    
+
 
   .info-container {
     position: relative;
@@ -178,7 +178,7 @@ h1.title {
     left:50%;
     margin-left:-32px;
     margin-bottom:10px;}
-    
+
     .shout-out-container{
       text-align:center;
     }
@@ -190,7 +190,7 @@ h1.title {
       border-radius: 3px;
       display:inline-block;
     }
-    
+
   .shout-out a{
     font-weight: normal;
     height:10px;
@@ -198,7 +198,7 @@ h1.title {
     text-decoration:none;
     color:#fff;
   }
-    
+
   .info-container, .hide-info {
     display: inline-block;
     background: #f0f;
@@ -215,7 +215,7 @@ h1.title {
       .info-container a, .hide-info a{
         color:#fff;
         text-decoration:none;}
-    
+
   .game-container .info {
     display: none;
     position: absolute;
@@ -421,7 +421,7 @@ hr {
 .tile, .tile .tile-inner {
   width: 107px;
   height: 107px;
-  -webkit-transform: translate3d(0, 0, 0);  
+  -webkit-transform: translate3d(0, 0, 0);
   line-height: 116.25px; }
 .tile.tile-position-1-1 {
   -webkit-transform: translate(0px, 0px);
@@ -508,28 +508,28 @@ hr {
     background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-wink-212.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-    
+
   .tile.tile-4 .tile-inner {
     background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-shake-space-212.gif');
-    background-size: cover;    
+    background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-    
+
   .tile.tile-8 .tile-inner {
     background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-peepers-212.gif');
     background-size: cover;}
-    
+
   .tile.tile-16 .tile-inner {
     background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-prizza-212.gif');
     background-size: cover;}
-    
+
   .tile.tile-32 .tile-inner {
     background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-hat-212.gif');
     background-size: cover;}
-    
+
   .tile.tile-64 .tile-inner {
     background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-gradient-212.gif');
     background-size: cover;}
-    
+
   .tile.tile-128 .tile-inner {
     background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-fat-212.gif');
     background-size: cover;
@@ -576,7 +576,7 @@ hr {
   .tile.tile-super .tile-inner {
 
     background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-derp-212.gif');
-    background-size: cover;    
+    background-size: cover;
     font-size: 30px; }
     @media screen and (max-width: 480px) {
       .tile.tile-super .tile-inner {
@@ -722,7 +722,7 @@ hr {
 
   .game-explanation {
     display:none;}
-    
+
   .shout-out, .game-explanation{
     margin-top:10px;
     height:0;
@@ -885,28 +885,28 @@ hr {
       background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-wink-114.gif');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-    
+
     .tile.tile-4 .tile-inner {
       background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-shake-space-114.gif');
-      background-size: cover;    
+      background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-    
+
     .tile.tile-8 .tile-inner {
       background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-peepers-114.gif');
       background-size: cover;}
-    
+
     .tile.tile-16 .tile-inner {
       background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-prizza-114.gif');
       background-size: cover;}
-    
+
     .tile.tile-32 .tile-inner {
       background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-hat-114.gif');
       background-size: cover;}
-    
+
     .tile.tile-64 .tile-inner {
       background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-gradient-114.gif');
       background-size: cover;}
-    
+
     .tile.tile-128 .tile-inner {
       background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-fat-114.gif');
       background-size: cover;
@@ -953,7 +953,7 @@ hr {
     .tile.tile-super .tile-inner {
 
       background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-derp-114.gif');
-      background-size: cover;    
+      background-size: cover;
       font-size: 30px; }
       @media screen and (max-width: 480px) {
         .tile.tile-super .tile-inner {
@@ -967,7 +967,7 @@ hr {
       position: relative;
       top:5px;
     }
-    
+
     .COINWIDGETCOM_CONTAINER {
       display:none !important;
     }
@@ -995,4 +995,4 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
-    
+
