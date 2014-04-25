@@ -25,7 +25,9 @@ h1.title {
   font-weight: bold;
   margin: 0;
   display: block;
-  float: left; }
+  float: left;
+  text-shadow: 2px 2px 5px #543D07;
+  }
 
   #twitter-widget-0 {
     width: 100px !important;
