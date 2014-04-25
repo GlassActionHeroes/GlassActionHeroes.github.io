@@ -3,7 +3,7 @@ function HTMLActuator() {
   this.scoreContainer   = document.querySelector(".score-container");
   this.bestContainer    = document.querySelector(".best-container");
   this.messageContainer = document.querySelector(".game-message");
-  this.info             = document.querySelector(".info");  
+  this.info             = document.querySelector(".info");
   this.dogeSays = document.querySelector(".doge-says");
   this.adSpace = document.querySelector(".shout-out");
 
@@ -129,7 +129,7 @@ HTMLActuator.prototype.updateScore = function (score) {
     addition.classList.add("score-addition");
     addition.textContent = "+" + difference;
     this.scoreContainer.appendChild(addition);
-    
+
     var message = dogeSayings[Math.floor(Math.random() * dogeSayings.length)]
     var messageElement = document.createElement("p");
     messageElement.textContent = message
@@ -142,7 +142,7 @@ HTMLActuator.prototype.updateScore = function (score) {
     if (difference > 4) {
      this.adSpace.innerHTML = ads[Math.floor(Math.random() * ads.length)]
     }
-    
+
   }
 };
 
@@ -165,17 +165,17 @@ HTMLActuator.prototype.clearMessage = function () {
 };
 
 
-HTMLActuator.prototype.showInfo = function () {
-  if ( this.info.getAttribute('style') === "display:block;"){
-    this.info.setAttribute('style','display:none;')
-    document.querySelector('.show-info').innerHTML = 'INFO';
-  } else {
-    this.info.setAttribute('style','display:block;') 
-    document.querySelector('.show-info').innerHTML = 'CLOSE';
-  }
-}
+// HTMLActuator.prototype.showInfo = function () {
+//   if ( this.info.getAttribute('style') === "display:block;"){
+//     this.info.setAttribute('style','display:none;')
+//     document.querySelector('.show-info').innerHTML = 'INFO';
+//   } else {
+//     this.info.setAttribute('style','display:block;')
+//     document.querySelector('.show-info').innerHTML = 'CLOSE';
+//   }
+// }
 
 
-HTMLActuator.prototype.hideInfo = function () {
-    this.info.setAttribute('style','display:none;')
-}
+// HTMLActuator.prototype.hideInfo = function () {
+//     this.info.setAttribute('style','display:none;')
+// }
