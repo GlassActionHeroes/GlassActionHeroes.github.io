@@ -524,7 +524,7 @@ hr {
     background-size: cover;}
 
   .tile.tile-16 .tile-inner {
-    background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-prizza-212.gif');
+    background: #f0f url('../img/212/4.gif');
     background-size: cover;}
 
   .tile.tile-32 .tile-inner {
@@ -901,7 +901,7 @@ hr {
       background-size: cover;}
 
     .tile.tile-16 .tile-inner {
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-prizza-114.gif');
+      background: #f0f url('../img/114/4.gif');
       background-size: cover;}
 
     .tile.tile-32 .tile-inner {
