@@ -172,24 +172,6 @@ h1.title {
     animation-fill-mode: both; }
 
 
-  .info-container {
-    position: relative;
-    cursor:pointer;
-    left:50%;
-    margin-left:-32px;
-    margin-bottom:10px;}
-
-    .shout-out-container{
-      text-align:center;
-    }
-    .shout-out{
-      height:10px;
-      line-height: 10px;
-      background: #f0f;
-      padding: 10px 10px;
-      border-radius: 3px;
-      display:inline-block;
-    }
 
   .shout-out a{
     font-weight: normal;
@@ -198,23 +180,6 @@ h1.title {
     text-decoration:none;
     color:#fff;
   }
-
-  .info-container, .hide-info {
-    display: inline-block;
-    background: #f0f;
-    padding: 10px 15px;
-    height: 10px;
-    line-height: 10px;
-    font-size:10px;
-    font-weight: bold;
-    border-radius: 3px;
-    color: white;
-    margin-top: 8px;
-    width: 36px;
-    text-align: center; }
-      .info-container a, .hide-info a{
-        color:#fff;
-        text-decoration:none;}
 
   .game-container .info {
     display: none;
