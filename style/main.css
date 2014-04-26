@@ -12,7 +12,7 @@ html, body {
   -moz-animation: background-gradient-change linear infinite alternate; }
 
 body {
-  margin: 80px 0 0 0; }
+  margin: 20px 0 0 0; }
 
 .heading:after {
   content: "";
@@ -24,11 +24,11 @@ h1.title {
   font-size: 48px;
   font-weight: bold;
   margin: 0;
-
+  font-style: arial;
 
   display: block;
   float: left;
-  text-shadow: 0px 1px 0px #AFA586;
+  text-shadow: 0px 1px 0px #6B6860;
   }
 
   #twitter-widget-0 {
@@ -152,6 +152,10 @@ h1.title {
          -moz-animation: hover-change linear 0.1s infinite;
          animation: hover-change linear 0.1s infinite;
        }
+
+header {
+  padding: 20px 0 20px 0;
+}
 
 .scores-container {
   float: right;
@@ -971,4 +975,5 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
+
 
