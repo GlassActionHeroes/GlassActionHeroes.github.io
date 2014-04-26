@@ -22,8 +22,7 @@ ClientInputManager.prototype.emit = function (event, data) {
 ClientInputManager.prototype.highLight = function(platform) {
   var platformField = document.getElementById(platform);
   var allPlatforms = document.getElementsByClassName("member");
-
-  self.setColor(platformField, allPlatforms);
+  this.setColor(platformField, allPlatforms);
 }
 
 ClientInputManager.prototype.setColor = function(selected, others) {
@@ -56,7 +55,7 @@ ClientInputManager.prototype.listen = function () {
 
     var mapped = map[data.direction];
     self.emit("move", mapped);
-    self.highlight(data.name);
+    self.highLight(data.name);
   });
 
 
