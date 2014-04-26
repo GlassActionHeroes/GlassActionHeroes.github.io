@@ -532,7 +532,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
 
-    background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-sunglasses-212.gif');
+    background: #f0f url('../img/212/9.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
@@ -540,7 +540,7 @@ hr {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-derp-212.gif');
+    background: #f0f url('../img/212/10.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
@@ -557,13 +557,6 @@ hr {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
-
-    background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-derp-212.gif');
-    background-size: cover;
-    font-size: 30px; }
-    @media screen and (max-width: 480px) {
-      .tile.tile-super .tile-inner {
-        font-size: 10px; } }
 
 @-webkit-keyframes appear {
   0% {
@@ -909,7 +902,7 @@ hr {
           font-size: 25px; } }
     .tile.tile-512 .tile-inner {
 
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-sunglasses-114.gif');
+      background: #f0f url('../img/114/8.gif');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
       font-size: 45px; }
@@ -917,7 +910,7 @@ hr {
         .tile.tile-512 .tile-inner {
           font-size: 25px; } }
     .tile.tile-1024 .tile-inner {
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-derp-114.gif');
+      background: #f0f url('../img/114/9.gif');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
       font-size: 35px; }
@@ -926,7 +919,7 @@ hr {
           font-size: 15px; } }
     .tile.tile-2048 .tile-inner {
 
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-shake-114.gif');
+      background: #f0f url('../img/114/10.gif');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
       font-size: 35px; }
