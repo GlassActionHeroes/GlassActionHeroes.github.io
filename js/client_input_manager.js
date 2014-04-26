@@ -26,11 +26,11 @@ ClientInputManager.prototype.highLight = function(platform) {
 }
 
 ClientInputManager.prototype.setColor = function(selected, others) {
-  selected.style.backgroundColor = 'yellow';
+  selected.style.backgroundColor = 'rgb(197, 57, 82)';
 
   for (var i = 0; i < others.length; i++ ){
     if (others[i] != selected){
-      others[i].style.backgroundColor = 'white';
+      others[i].style.backgroundColor = '#FAEBCA';
     };
   };
 }
