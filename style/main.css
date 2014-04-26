@@ -179,50 +179,6 @@ h1.title {
   display: none;
 }
 
-/*  .info-container {
-    position: relative;
-    cursor:pointer;
-    left:50%;
-    margin-left:-32px;
-    margin-bottom:10px;}
-
-    .shout-out-container{
-      text-align:center;
-    }
-    .shout-out{
-      height:10px;
-      line-height: 10px;
-      background: #f0f;
-      padding: 10px 10px;
-      border-radius: 3px;
-      display:inline-block;
-    }
-
-  .shout-out a{
-    font-weight: normal;
-    height:10px;
-    width:auto;
-    text-decoration:none;
-    color:#fff;
-  }
-
-  .info-container, .hide-info {
-    display: inline-block;
-    background: #f0f;
-    padding: 10px 15px;
-    height: 10px;
-    line-height: 10px;
-    font-size:10px;
-    font-weight: bold;
-    border-radius: 3px;
-    color: white;
-    margin-top: 8px;
-    width: 36px;
-    text-align: center; }
-      .info-container a, .hide-info a{
-        color:#fff;
-        text-decoration:none;}
-*/
 
 .members {
   padding: 20px 0 0 0;
@@ -380,9 +336,9 @@ hr {
     background: rgba(255,255,255,0.9);
     z-index: 100;
     text-align: center;
-    -webkit-animation: fade-in 800ms ease 1200ms;
-    -moz-animation: fade-in 800ms ease 1200ms;
-    animation: fade-in 800ms ease 1200ms;
+    -webkit-animation: fade-in 1600ms ease 2400ms;
+    -moz-animation: fade-in 1600ms ease 2400ms;
+    animation: fade-in 1600ms ease 2400ms;
     -webkit-animation-fill-mode: both;
     -moz-animation-fill-mode: both;
     animation-fill-mode: both; }
