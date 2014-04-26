@@ -5,32 +5,32 @@ window.requestAnimationFrame(function () {
 });
 
 
-    var imageList = [
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-derp-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-fat-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-gradient-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-hat-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-peepers-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-prizza-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-rainbow-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-shake-space-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-sunglasses-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-shake-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-wink-212.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-derp-114.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-fat-114.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-gradient-114.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-hat-114.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-peepers-114.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-prizza-114.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-rainbow-114.gif",
-        "http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-shake-space-114.gif",
-        "../image/212/3.gif",
-        "../image/212/2.gif",
-        "../image/212/1.gif",
-    ];
-    for(var i = 0; i < imageList.length; i++ )
-    {
-        var imageObject = new Image();
-        imageObject.src = imageList[i];
-    }
+    // var imageList = [
+    //     "../image/212/11.gif",
+    //     "../image/212/10.gif",
+    //     "../image/212/9.gif",
+    //     "../image/212/8.gif",
+    //     "../image/212/7.gif",
+    //     "../image/212/6.gif",
+    //     "../image/212/5.gif",
+    //     "../image/212/4.gif",
+    //     "../image/212/3.gif",
+    //     "../image/212/2.gif",
+    //     "../image/212/1.gif",
+    //     "../image/114/11.gif",
+    //     "../image/114/10.gif",
+    //     "../image/114/9.gif",
+    //     "../image/114/8.gif",
+    //     "../image/114/7.gif",
+    //     "../image/114/6.gif",
+    //     "../image/114/5.gif",
+    //     "../image/114/4.gif",
+    //     "../image/114/3.gif",
+    //     "../image/114/2.gif",
+    //     "../image/114/1.gif",
+    // ];
+    // for(var i = 0; i < imageList.length; i++ )
+    // {
+    //     var imageObject = new Image();
+    //     imageObject.src = imageList[i];
+    // }
