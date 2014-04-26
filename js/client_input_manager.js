@@ -26,7 +26,9 @@ ClientInputManager.prototype.highLight = function(platform) {
 }
 
 ClientInputManager.prototype.setColor = function(selected, others) {
-  selected.style.backgroundColor = 'rgb(197, 57, 82)';
+  selected.style.backgroundColor = '#e1a011';
+  selected.style.color = 'white';
+  selected.style['box-shadow'] = '2px 2px 2px #AF9D73';
 
   for (var i = 0; i < others.length; i++ ){
     if (others[i] != selected){

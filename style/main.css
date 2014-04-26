@@ -2,14 +2,14 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #fff;
-  color: #000;
+  background: #FAEBCA;
+  color: rgba(0, 0, 0, 0.70);
 /*  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;*/
   font-family: 'futura-pt', sans-serif;
   font-size: 18px;
-  -webkit-animation: background-gradient-change linear 6s infinite alternate;
-  -moz-animation: background-gradient-change linear 6s infinite alternate;
-  -moz-animation: background-gradient-change linear 6s infinite alternate; }
+  -webkit-animation: background-gradient-change linear infinite alternate;
+  -moz-animation: background-gradient-change linear infinite alternate;
+  -moz-animation: background-gradient-change linear infinite alternate; }
 
 body {
   margin: 80px 0 0 0; }
@@ -234,10 +234,10 @@ h1.title {
   padding: 2px 20px 2px 20px;
   background-color: #FAEBCA;
   border-radius: 3px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
 }
 
 #member-selected {
-  background-color: green;
 }
 
 
@@ -361,7 +361,8 @@ hr {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  background: rgba(0,0,0,0.05);
+  background: rgba(0,0,0,0.15);
+  box-shadow: 2px 2px 2px #AF9D73;
 /*  background: #a0a0a0;*/
   border-radius: 6px;
   width: 500px;
@@ -434,6 +435,7 @@ hr {
   float: left;
   border-radius: 3px;
   background: rgba(255,255,255,0.8);
+  box-shadow: 2px 2px 2px #AF9D73;
 /*  background: rgba(238, 228, 218, 0.35);*/
  }
   .grid-cell:last-child {
@@ -715,7 +717,7 @@ hr {
   margin-bottom: 0; }
 
 .game-explanation, .shout-out {
-  margin-top: 0px;
+  padding: 20px 0 10px 0;
   text-align: center;
   font-size: 14px;}
 
