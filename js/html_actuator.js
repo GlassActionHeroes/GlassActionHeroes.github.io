@@ -8,8 +8,8 @@ function HTMLActuator() {
   this.score = 0;
 }
 
-var dogeSayings = ['such good', 'so amaze', 'many points', 'very unstoppable', 'great jorb', 'such playing', 'very good', 'points', 'very gaming', 'such player', 'concern' ,'bewildered',
-'many game', 'so good', 'very scores', 'so scoring', 'so hot right now', 'such playing', 'such matching', 'so matched', 'very matched', 'very neat' ,'such natural',]
+var bnrSayings = ['Wow. Commit to master.', 'Score++', 'Nerdbot: karam best', 'makin\' it rain', 'great jorb', 'strong as a python', 'so ruby', 'stack overflow', 'CBQ for President', 'kind hardworking brilliant', 'so rowe' ,'nerdpower',
+'such wifi', 'Chris Donnelly', 'scooter power', 'a mystery sage', 'it\'s off the rails', 'an effective merger', 'teach me to code', 'path to mastery', 'ship it!', 'standup desks' ,'feature creep kills',]
 
 var ads = [
 
@@ -128,7 +128,7 @@ HTMLActuator.prototype.updateScore = function (score) {
     addition.textContent = "+" + difference;
     this.scoreContainer.appendChild(addition);
 
-    var message = dogeSayings[Math.floor(Math.random() * dogeSayings.length)]
+    var message = bnrSayings[Math.floor(Math.random() * bnrSayings.length)]
     var messageElement = document.createElement("p");
     messageElement.textContent = message
     var left = 'left:' + Math.round(Math.random() * 80) + '%;'
