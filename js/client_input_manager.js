@@ -33,6 +33,8 @@ ClientInputManager.prototype.setColor = function(selected, others) {
   for (var i = 0; i < others.length; i++ ){
     if (others[i] != selected){
       others[i].style.backgroundColor = '#FAEBCA';
+      others[i].style['box-shadow'] = 'none';
+      others[i].style.color = 'rgba(0, 0, 0, 0.70)';
     };
   };
 }
