@@ -19,6 +19,23 @@ ClientInputManager.prototype.emit = function (event, data) {
   }
 };
 
+ClientInputManager.prototype.highLight = function(platform) {
+  var platformField = document.getElementById(platform);
+  var allPlatforms = document.getElementsByClassName("member");
+
+  self.setColor(platformField, allPlatforms);
+}
+
+ClientInputManager.prototype.setColor = function(selected, others) {
+  selected.style.backgroundColor = 'yellow';
+
+  for (var i = 0; i < others.length; i++ ){
+    if (others[i] != selected){
+      others[i].style.backgroundColor = 'white';
+    };
+  };
+}
+
 ClientInputManager.prototype.listen = function () {
   var self = this;
 
@@ -39,6 +56,7 @@ ClientInputManager.prototype.listen = function () {
 
     var mapped = map[data.direction];
     self.emit("move", mapped);
+    self.highlight(data.name);
   });
 
 

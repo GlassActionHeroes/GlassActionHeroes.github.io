@@ -20,6 +20,23 @@ KeyboardInputManager.prototype.emit = function (event, data) {
   }
 };
 
+KeyboardInputManager.prototype.highLight = function() {
+  var platformField = document.getElementById("Web");
+  var allPlatforms = document.getElementsByClassName("member");
+  this.setColor(platformField, allPlatforms);
+}
+
+KeyboardInputManager.prototype.setColor = function(selected, others) {
+  selected.style.backgroundColor = 'yellow';
+
+  for (var i = 0; i < others.length; i++ ){
+    if (others[i] != selected){
+      others[i].style.backgroundColor = 'white';
+    };
+  };
+}
+
+
 KeyboardInputManager.prototype.listen = function () {
   var self = this;
 
@@ -47,6 +64,7 @@ KeyboardInputManager.prototype.listen = function () {
       if (mapped !== undefined) {
         event.preventDefault();
         self.emit("move", mapped);
+        self.highLight();
       }
 
       if (event.which === 32) self.restart.bind(self)(event);
