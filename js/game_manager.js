@@ -1,8 +1,9 @@
-function GameManager(size, InputManager, Actuator, ScoreManager) {
+function GameManager(size, InputManager, Actuator, ScoreManager, ClientInputManager) {
   this.size         = size; // Size of the grid
   this.inputManager = new InputManager;
   this.scoreManager = new ScoreManager;
   this.actuator     = new Actuator;
+  this.clientManager = new ClientInputManager
 
   this.startTiles   = 2;
 
@@ -11,6 +12,8 @@ function GameManager(size, InputManager, Actuator, ScoreManager) {
   this.inputManager.on("keepPlaying", this.keepPlaying.bind(this));
   // this.inputManager.on("showInfo", this.showInfo.bind(this));
   // this.inputManager.on("hideInfo", this.hideInfo.bind(this));
+
+  this.clientManager.on("move", this.move.bind(this));
 
   this.setup();
 }
