@@ -6,5 +6,6 @@ var pusher = new Pusher('514e04bbf50ba9b0b0b6', {
 var channel = pusher.subscribe('private-bnr_2048_channel');
 
 channel.bind('client-send_direction', function(data) {
-  alert(data.up);
+  alert(data.direction);
+  alert(data.name);
 });
