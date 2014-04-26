@@ -1,9 +1,9 @@
-function GameManager(size, InputManager, Actuator, ScoreManager, ClientInputManager) {
+function GameManager(size, InputManager, Actuator, ScoreManager, ClientInputManager, channel) {
   this.size         = size; // Size of the grid
   this.inputManager = new InputManager;
   this.scoreManager = new ScoreManager;
   this.actuator     = new Actuator;
-  this.clientManager = new ClientInputManager
+  this.clientManager = new ClientInputManager;
 
   this.startTiles   = 2;
 

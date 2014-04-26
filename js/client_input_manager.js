@@ -22,35 +22,25 @@ ClientInputManager.prototype.emit = function (event, data) {
 ClientInputManager.prototype.listen = function () {
   var self = this;
 
-  var map = {
-    38: 0, // Up
-    39: 1, // Right
-    40: 2, // Down
-    37: 3, // Left
-    75: 0, // vim keybindings
-    76: 1,
-    74: 2,
-    72: 3,
-    87: 0, // W
-    68: 1, // D
-    83: 2, // S
-    65: 3  // A
-  };
-
-  document.addEventListener("keydown", function (event) {
-    var modifiers = event.altKey || event.ctrlKey || event.metaKey ||
-                    event.shiftKey;
-    var mapped    = map[event.which];
-
-    if (!modifiers) {
-      if (mapped !== undefined) {
-        event.preventDefault();
-        self.emit("move", mapped);
-      }
-
-      if (event.which === 32) self.restart.bind(self)(event);
-    }
+  var pusher = new Pusher('514e04bbf50ba9b0b0b6', {
+    authTransport: 'jsonp',
+    authEndpoint: 'http://mysterious-forest-1989.herokuapp.com/pusher/auth'
   });
+
+  var channel = pusher.subscribe('private-bnr_2048_channel');
+
+  channel.bind('client-send_direction', function(data) {
+    var map = {
+      "up": 0, // Up
+      "right": 1, // Right
+      "down": 2, // Down
+      "left": 3, // Left
+    };
+
+    var mapped = map[data.direction];
+    self.emit("move", mapped);
+  });
+
 
   var retry = document.querySelector(".retry-button");
   retry.addEventListener("click", this.restart.bind(this));
@@ -59,14 +49,6 @@ ClientInputManager.prototype.listen = function () {
   var keepPlaying = document.querySelector(".keep-playing-button");
   keepPlaying.addEventListener("click", this.keepPlaying.bind(this));
   keepPlaying.addEventListener("touchend", this.keepPlaying.bind(this));
-
-  // var showInfo = document.querySelector(".info-container");
-  // showInfo.addEventListener("click", this.showInfo.bind(this));
-  // showInfo.addEventListener("touchend", this.showInfo.bind(this));
-
-  // var hideInfo = document.querySelector(".hide-info");
-  // hideInfo.addEventListener("click", this.hideInfo.bind(this));
-  // hideInfo.addEventListener("touchend", this.hideInfo.bind(this));
 
 
   // Listen to swipe events
